@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 // react-pintura
 import { PinturaEditor } from "@pqina/react-pintura";
 
@@ -49,7 +48,7 @@ const editorDefaults = {
     ...LocaleMarkupEditor,
   },
 };
-const Editor = ({ imgSrc, imageId, updateImage}) => {
+const Editor = ({ imgSrc, imageId, updateImage }) => {
   // const [result, setResult] = useState("");
 
   return (
@@ -69,7 +68,7 @@ const Editor = ({ imgSrc, imageId, updateImage}) => {
           }}
         />
       </div>
-      
+
       {/* {!!result.length && (
         <p>
           <img src={result} alt="" />
